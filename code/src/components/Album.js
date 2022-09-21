@@ -2,9 +2,9 @@ import React from 'react';
 
 const Album = (props) => {
   return (
-    <h2>
+    <p class="albumNameP">
       {props.albumName}  
-    </h2>
+    </p>
   );
 }
 

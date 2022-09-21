@@ -4,10 +4,8 @@ body {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: black;
-  color: white;
-}
+  -moz-osx-font-smoothing: grayscale
+  }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -16,6 +14,12 @@ code {
     display: flex;
 }
 
+.dots, .heart, .play{
+  height: 40px;
+  width: 40px;
+  filter: invert(100%) sepia(0%) saturate(7493%) hue-rotate(299deg) brightness(103%) contrast(105%);
+
+}
 
 h2{
   margin: 0px 0px 0px 0px ;
@@ -23,26 +27,41 @@ h2{
   font-size: 20px;
 }
 
-#root {
- color: white;
-
-}
-
 .coverImg{
-width: 200px;
-height: 200px;
+width: 450px;
+height: 450px;
 }
+
 
 .artistNameP{
 max-width: 200px;
-margin: 0px 0px 15px 0px
+margin: 0px 0px 15px 0px;
+color: #A0A0A0;
+font-size: 14px;
 }
 
-.mainContainer{
+.albumNameP{
+max-width: 200px;
+margin: 0px 0px 15px 0px;
+color: #FFFFFF;
+font-size: 14px;
+font-weight: bold;
+margin: 0px;
+}
+
+.section{
   background-color: black;
   color: white;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
+}
+
+.musicCard{
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 10px;
 }
