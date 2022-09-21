@@ -2,9 +2,9 @@ import React from 'react';
 
 const Artist = (props) => {
   return (
-    <h3>
+    <p class="artistNameP">
       {props.artistName}  
-    </h3>
+    </p>
   );
 }
 
