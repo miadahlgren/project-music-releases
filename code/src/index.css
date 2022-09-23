@@ -31,7 +31,9 @@ h1{
   color: white; 
   font-family: 'Helvetica';
   font-size: 22px;
-  left: 15px; 
+  margin-top: 30px; 
+  margin-left: 10px;
+  margin-bottom: 30px;  
 }
 
 
