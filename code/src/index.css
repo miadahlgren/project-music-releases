@@ -4,12 +4,14 @@ body {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
   }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: Arial, Helvetica, sans-serif;
+ /*  source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace; */
 
     display: flex;
 }
@@ -20,6 +22,14 @@ code {
   filter: invert(100%) sepia(0%) saturate(7493%) hue-rotate(299deg) brightness(103%) contrast(105%);
 
 }
+
+h1{
+  color: white; 
+  font-family: 'Helvetica';
+  font-size: 22px;
+  left: 15px; 
+}
+
 
 h2{
   margin: 0px 0px 0px 0px ;
@@ -36,8 +46,8 @@ height: 450px;
 .artistNameP{
 max-width: 200px;
 margin: 0px 0px 15px 0px;
-color: #A0A0A0;
 font-size: 14px;
+margin: 3px;
 }
 
 .albumNameP{
@@ -46,7 +56,7 @@ margin: 0px 0px 15px 0px;
 color: #FFFFFF;
 font-size: 14px;
 font-weight: bold;
-margin: 0px;
+margin: 3px;
 }
 
 .section{
@@ -66,6 +76,26 @@ margin: 0px;
   margin: 10px;
   position: relative;
 }
+
+ a{
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+ }
+
+ .artist-link{
+  color: #A0A0A0; 
+ }
+
+ a:hover{
+  color: white;
+  text-decoration: underline white;
+  font-weight: bold;
+ }
+
+ .artistlink:hover{
+  color:white;
+ }
+ 
 
 .overlay {
   position: absolute;
