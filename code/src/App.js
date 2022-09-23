@@ -8,14 +8,20 @@ console.log(data);
 export const App = () => {
   return (    
    <>
-   
-    <Header />
-    <section class="section">
+   <section class="outer-section">
+   <section class="section">
+   <div class="header">
+      <Header />  
+    </div>
+    
+       
       {data.albums.items.map(item => {
         return <Albumshero key={item.id} data= {item} />
         
       })}  
     </section>
+    </section>
+    
 </>
   );
 }

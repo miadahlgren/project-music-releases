@@ -16,9 +16,11 @@ code {
     display: flex;
 }
 
+
+
 .dots, .heart, .play {
-  height: 70px;
-  width: 56px;
+  height: 60px;
+  width: 46px;
   filter: invert(100%) sepia(0%) saturate(7493%) hue-rotate(299deg) brightness(103%) contrast(105%);
   
 }
@@ -27,13 +29,20 @@ code {
   transform: scale(1.2);
 }
 
+.header {
+  background-color: black;
+  color: white;
+  width: 100%;
+
+} 
+
 h1{
   color: white; 
   font-family: 'Helvetica';
-  font-size: 22px;
-  margin-top: 30px; 
-  margin-left: 10px;
-  margin-bottom: 30px;  
+  font-size: 30px;
+  
+  border-bottom: #2e2a2a 1px solid; 
+  padding-bottom: 5px;
 }
 
 
@@ -44,8 +53,8 @@ h2{
 }
 
 .coverImg{
-width: 450px;
-height: 450px;
+width: 350px;
+height: 350px;
 }
 
 
@@ -57,7 +66,7 @@ margin: 3px;
 }
 
 .albumNameP{
-max-width: 200px;
+max-width: 300px;
 margin: 0px 0px 15px 0px;
 color: #FFFFFF;
 font-size: 14px;
@@ -65,22 +74,35 @@ font-weight: bold;
 margin: 3px;
 }
 
-.section{
+.outer-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.section {
   background-color: black;
   color: white;
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 8px;
+  padding: 10px;
+  justify-content: center; */
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .musicCard{
-  width: 450px;
+  width: 380px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  margin: 10px;
+  margin-bottom: 20px;
   position: relative;
+  
 }
 
  a{
@@ -109,7 +131,7 @@ margin: 3px;
   right: 0;
   bottom: 0;
   left: 0;
-  gap: 80px;
+  gap: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -130,3 +152,4 @@ a:hover {
   text-decoration: underline;
   color: #ffffff
 }
+
