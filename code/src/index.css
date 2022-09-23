@@ -14,11 +14,15 @@ code {
     display: flex;
 }
 
-.dots, .heart, .play{
+.dots, .heart, .play {
   height: 70px;
   width: 56px;
   filter: invert(100%) sepia(0%) saturate(7493%) hue-rotate(299deg) brightness(103%) contrast(105%);
+  
+}
 
+.dots:hover, .heart:hover, .play:hover {
+  transform: scale(1.2);
 }
 
 h2{
@@ -78,7 +82,7 @@ margin: 0px;
   justify-content: center;
   align-items: center;
   transition: 0.4s ease;
-
+  opacity: 0;
 }
 
 .imagewrapper {
@@ -87,4 +91,10 @@ margin: 0px;
 
 .overlay:hover {
   background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ffffff
 }
