@@ -13,6 +13,7 @@ export const App = () => {
     <section class="section">
       {data.albums.items.map(item => {
         return <Albumshero key={item.id} data= {item} />
+        
       })}  
     </section>
 </>

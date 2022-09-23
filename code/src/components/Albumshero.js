@@ -10,9 +10,10 @@ const Albumshero = (props) => {
     <>
      <div class="musicCard">
      <a href={props.data.external_urls.spotify} target="_blank">
+     <div class="imagewrapper">
         <Covers albumImage = {props.data.images[1].url} />
         <AlbumOverlay />
-        
+       </div> 
             <Album albumName = {props.data.name} />
             </a>
         

@@ -15,8 +15,8 @@ code {
 }
 
 .dots, .heart, .play{
-  height: 40px;
-  width: 40px;
+  height: 70px;
+  width: 56px;
   filter: invert(100%) sepia(0%) saturate(7493%) hue-rotate(299deg) brightness(103%) contrast(105%);
 
 }
@@ -64,4 +64,27 @@ margin: 0px;
   flex-direction: column;
   flex-wrap: nowrap;
   margin: 10px;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  gap: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s ease;
+
+}
+
+.imagewrapper {
+  position: relative;
+}
+
+.overlay:hover {
+  background-color: rgba(0, 0, 0, 0.5);
 }
