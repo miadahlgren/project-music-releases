@@ -12,10 +12,8 @@ code {
   font-family: Arial, Helvetica, sans-serif;
  /*  source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace; */
-
     display: flex;
 }
-
 
 
 .dots, .heart, .play {
@@ -66,7 +64,7 @@ min-width: 200px;
 }
 
 .albumNameP{
-max-width: 380px;
+max-width: 350vw;
 margin: 0px 0px 15px 0px;
 color: #FFFFFF;
 font-size: 14px;
@@ -79,20 +77,17 @@ margin: 3px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .section {
   background-color: black;
   color: white;
-  /* display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 10px;
-  justify-content: center; */
   display: flex;
   width: 80%;
   flex-direction: row;
   flex-wrap: wrap;
+/*   justify-content: center; */
 }
 
 .musicCard{
@@ -148,7 +143,3 @@ margin: 3px;
   opacity: 1;
 }
 
- a:hover {
-  text-decoration: underline;
-  color: #ffffff
-} 
