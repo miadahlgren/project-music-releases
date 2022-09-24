@@ -1,17 +1,11 @@
 # Music Releases
-Replace this readme with your own information about your project.
 
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+## The assignment
+This week we practiced React and creating components by using data from Spotify. We built a responsive page which shows new album and single releases. 
 
 ## The problem
 
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
-
-Hover effect
-länk till artist
-responsiveness tablet/phone
-Flytta upp iconerna till bilden
+The first problem we encountered was knowing where (in which file) to put what code. But after some research it was figured out. We made a quick sketch in Figma for what containers (components) we wanted to have and how to connect them. Then we started building by fetching the pictures and artists/albums from the data file provided. It was straight forward, except from how to fetch several artists from one item, which we struggeled with a bit. Eventually solved it by using the map-method and a ternary operator. 
 
 ## View it live
 
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
