@@ -16,10 +16,8 @@ const Albumshero = (props) => {
        </div> 
             <Album albumName = {props.data.name} />
             </a>
-        
-            <a class="artist-link" href={props.data.artists[0].external_urls.spotify} target="_blank" rel="noopener noreferrer">
-                <Artist artistName = {props.data.artists[0].name} />
-            </a>
+
+                <Artist data = {props.data} /> 
         
         </div>
     </>

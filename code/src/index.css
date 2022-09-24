@@ -59,14 +59,14 @@ height: 350px;
 
 
 .artistNameP{
-max-width: 200px;
 margin: 0px 0px 15px 0px;
 font-size: 14px;
 margin: 3px;
+min-width: 200px;
 }
 
 .albumNameP{
-max-width: 300px;
+max-width: 380px;
 margin: 0px 0px 15px 0px;
 color: #FFFFFF;
 font-size: 14px;
@@ -148,8 +148,7 @@ margin: 3px;
   opacity: 1;
 }
 
-a:hover {
+ a:hover {
   text-decoration: underline;
   color: #ffffff
-}
-
+} 
