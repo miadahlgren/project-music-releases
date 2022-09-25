@@ -20,7 +20,6 @@ code {
   height: 60px;
   width: 46px;
   filter: invert(100%) sepia(0%) saturate(7493%) hue-rotate(299deg) brightness(103%) contrast(105%);
-  
 }
 
 .dots:hover, .heart:hover, .play:hover {
@@ -51,16 +50,15 @@ h2{
 }
 
 .coverImg{
-width: 350px;
-height: 350px;
+width: 372px;
+height: 372px;
 }
 
 
-.artistNameP{
+.artistNameDiv{
 margin: 0px 0px 15px 0px;
 font-size: 14px;
 margin: 3px;
-min-width: 200px;
 }
 
 .albumNameP{
@@ -70,6 +68,7 @@ color: #FFFFFF;
 font-size: 14px;
 font-weight: bold;
 margin: 3px;
+margin-top: 5px;
 }
 
 .outer-section {
@@ -136,6 +135,9 @@ margin: 3px;
 
 .imagewrapper {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .overlay:hover {
